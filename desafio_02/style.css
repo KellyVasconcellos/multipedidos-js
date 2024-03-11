@@ -8,6 +8,22 @@ body {
     height: 100vh;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h2 {
+    font-family: Roboto, sans-serif;
+    color: #3d1841!important;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 table {
     width: 500px;
 }
@@ -33,6 +49,10 @@ table p {
     margin: 0px;
 }
 
+button p:hover {
+    font-size: 18px;
+}
+
 .span {
     color: #3d1841;
     margin-left: 5px;
@@ -41,6 +61,10 @@ table p {
 button {
     border: none;
     outline: none;
-    background-color: transparent; /* Opcionalmente, tornar o fundo transparente */
-    padding: 0; /* Opcionalmente, remover preenchimento */
+    background-color: transparent;
+    padding: 0;
+}
+
+.modal-body li {
+    list-style-type: none;
 }
