@@ -1,0 +1,46 @@
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #3d1841,  #955c85,  #ca8687);
+    height: 100vh;
+}
+
+table {
+    width: 500px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:not(:first-child) {
+    border-top: 1px solid #3d1841;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table p {
+    font-weight: bold;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.span {
+    color: #3d1841;
+    margin-left: 5px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent; /* Opcionalmente, tornar o fundo transparente */
+    padding: 0; /* Opcionalmente, remover preenchimento */
+}
