@@ -13,6 +13,8 @@
 
 O projeto consta com o Desafio 1: JavaScript e o Desafio 2: HTML + CSS.
 
+Link da página: https://kellyvasconcellos.github.io/multipedidos-js/
+
 ---
 
 ## 🚀 Tecnologias utilizadas
