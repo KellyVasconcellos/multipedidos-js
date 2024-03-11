@@ -1,7 +1,7 @@
 # Desafio MultiPedidos
 <h1>
-    <img src="desafio_02/public/imagem_01.png">
-    <img src="desafio_02/public/imagem_02.png">
+    <img src="public/imagem_01.png">
+    <img src="public/imagem_02.png">
 </h1>
 
 # Indice
